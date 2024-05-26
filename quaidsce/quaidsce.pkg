@@ -1,5 +1,10 @@
-d 'DEA': Data envelopment analysis
+d 'quaidsce': Estimate censored almost ideal demand systems (QUAIDS) Use quaidsce For (With) STATA 18
 d
-f dea.ado
-f dea.sthlp
-f coelli_table6.4.dta
+f lquaidsce.mlib
+f nlsur__quaidsce.ado
+f quaidsce.ado
+f quaidsce.sthlp
+f quaidsce_estat.ado
+f quaidsce_p.ado
+f quaidsce_postestimation.sthlp
+f utils__quaidsce.mata
