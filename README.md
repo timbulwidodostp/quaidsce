@@ -1,6 +1,8 @@
 # quaidsce
 Estimate censored almost ideal demand systems (QUAIDS) Use quaidsce For (With) STATA 18
 
+https://www.youtube.com/watch?v=9IFdwlDK9v8
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
