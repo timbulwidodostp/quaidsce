@@ -1,10 +1,43 @@
-d 'quaidsce': Estimate censored almost ideal demand systems (QUAIDS) Use quaidsce For (With) STATA 18
-d
-f lquaidsce.mlib
-f nlsur__quaidsce.ado
-f quaidsce.ado
-f quaidsce.sthlp
-f quaidsce_estat.ado
-f quaidsce_p.ado
-f quaidsce_postestimation.sthlp
-f utils__quaidsce.mata
+D 'quaidsce': Estimate censored almost ideal demand systems (QUAIDS) Use quaidsce For (With) STATA 18
+D
+F lquaidsce.mlib
+F metaparm.ado
+F metaparm.sthlp
+F metaparm_content_opts.sthlp
+F metaparm_outdest_opts.sthlp
+F metaparm_resultssets.sthlp
+F nlsur__quaidsce.ado
+F parallel.ado
+F parallel.sthlp
+F parallel_append.ado
+F parallel_bs.ado
+F parallel_sim.ado
+F parallel_source.sthlp
+F parmby.ado
+F parmby.sthlp
+F parmby_only_opts.sthlp
+F parmcip.ado
+F parmcip.sthlp
+F parmcip_opts.sthlp
+F parmest.ado
+F parmest.sthlp
+F parmest_ci_opts.sthlp
+F parmest_outdest_opts.sthlp
+F parmest_resultssets.sthlp
+F parmest_varadd_opts.sthlp
+F parmest_varmod_opts.sthlp
+F procenv.ado
+F procenv.plugin
+F procexec.ado
+F procexec.plugin
+F prockill.ado
+F prockill.plugin
+F procwait.ado
+F procwait.plugin
+F quaidsce.ado
+F quaidsce.sthlp
+F quaidsce_c.ado
+F quaidsce_estat.ado
+F quaidsce_p.ado
+F quaidsce_postestimation.sthlp
+F utils__quaidsce.mata
