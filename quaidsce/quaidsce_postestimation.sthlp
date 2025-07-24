@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.1.0  Sep 2021}{...}
+{* *! version 2.0  June 2023}{...}
 {right:also see:  {help quaidsce} {space 1}}
 {hline}
 
@@ -9,7 +9,6 @@
 {p2col :{cmd:quaidsce postestimation} {hline 2}}Postestimation tools for quaidsce{p_end}
 {p2colreset}{...}
 
-
 {title:Description}
 
 {pstd}
@@ -18,15 +17,7 @@ The following postestimation commands are available after {cmd:quaidsce}:
 {synoptset 21}{...}
 {p2coldent :Command}Description{p_end}
 {synoptline}
-{synopt :{helpb quaidsce postestimation##expelas:estat expenditure}}expenditure elasticities{p_end}
-{synopt :{helpb quaidsce postestimation##comelas:estat compensated}}compensated price elasticities{p_end}
-{synopt :{helpb quaidsce postestimation##uncelas:estat uncompensated}}uncompensated price elasticities{p_end}
-INCLUDE help post_estimates
-INCLUDE help post_lincom
 {synopt :{helpb quaidsce postestimation##predict:predict}}predicted expenditure shares{p_end}
-INCLUDE help post_predictnl
-INCLUDE help post_test
-INCLUDE help post_testnl
 {synoptline}
 {p2colreset}{...}
 
@@ -48,98 +39,12 @@ sample.
 You must specify a variable {it:stub} or {it:k} new variables, where {it:k}
 is the number of goods in the demand system.
 
-
-{marker expelas}{...}
-{title:Syntax for estat expenditure}
-
-{p 8 16 2}
-{cmd:estat} {cmdab:exp:enditure}
-{ifin}
-
-{pstd}
-The command computes the 1 x {it:k} vector of expenditure elasticities 
-calculated when all the variables in the model are set to their sample means.
-Standard errors are based on the delta method.
-
-{marker comelas}{...}
-{title:Syntax for estat compensated}
-
-{p 8 16 2}
-{cmd:estat} {cmdab:comp:ensated}
-{ifin}
-
-{pstd}
-The command computes the {it:k} x {it:k} matrix of compensated price elasticities 
-calculated when all the variables in the model are set to their sample means.
-Standard errors are based on the delta method.
-
-{marker uncelas}{...}
-{title:Syntax for estat uncompensated}
-
-{p 8 16 2}
-{cmd:estat} {cmdab:uncomp:ensated}
-{ifin}
-
-{pstd}
-The command computes the {it:k} x {it:k} matrix of uncompensated price elasticities 
-calculated when all the variables in the model are set to their sample means.
-Standard errors are based on the delta method.
-
-
-{title:Stored results}
-
-{pstd}
-{cmd:estat expenditure} stores the following:{p_end}
-
-{synoptset 18 tabbed}{...}
-{synopt:{cmd:r(elas_i)}}vector of expenditure elasticities{p_end}
-
-{synopt:{cmd:r(se_elas_i)}}vector of standard errors of expenditure
-elasticities{p_end}
-
-{pstd}
-{cmd:estat compensated} stores the following:{p_end}
-
-{synoptset 18 tabbed}{...}
-{synopt:{cmd:r(elas_c)}}matrix of compensated price elasticities{p_end}
-
-{phang2}
-The element in row {it:i}, column {it:j} of {cmd:r(elas_c)} contains the 
-compensated price elasticity of good {it:i} with respect to the price of
-good {it:j}.
-
-{synopt:{cmd:r(se_elas_c)}}matrix of standard errors of compensated price
-elasticities{p_end}
-
-{pstd}
-{cmd:estat uncompensated} stores the following:{p_end}
-
-{synoptset 18 tabbed}{...}
-{synopt:{cmd:r(elas_u)}}matrix of uncompensated price elasticities{p_end}
-
-{phang2}
-The element in row {it:i}, column {it:j} of {cmd:r(elas_u)} contains the 
-uncompensated price elasticity of good {it:i} with respect to the price of good
-{it:j}.
-
-{synopt:{cmd:r(se_elas_u)}}matrix of standard errors of uncompensated price
-elasticities{p_end}
-
-
-{title:Authors}
+{title:Corresponding author}
 
 {pstd}Juan C. Caro{p_end}
-{pstd}University of Luxembourg{p_end}
-{pstd}juan.caro@uni.lu{p_end}
+{pstd}Universidad de Concepcion{p_end}
+{pstd}juancaros@udec.cl{p_end}
 
-{pstd}Juan Carlos Salgado{p_end}
-{pstd}INSP Mexico{p_end}
-
-{pstd}Grace Melo{p_end}
-{pstd}Texas A&M University{p_end}
-
-{pstd}Jose Alberto Molina{p_end}
-{pstd}Universidad de Zaragoza{p_end}
 
 {title:Also see}
 
