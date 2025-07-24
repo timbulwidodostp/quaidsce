@@ -2,4 +2,4 @@
 1
 2
 3
-p dea Data envelopment analysis
+p quaidsce Estimate censored almost ideal demand systems (QUAIDS) Use quaidsce For (With) STATA 18
